@@ -1,0 +1,5 @@
+log/
+ckpt_clip_github/
+Imagenet_main_cls-agn_prp-img.py
+Imagenet_main_cls-spec_prp-img.py
+cls-agn_prp-img.sh

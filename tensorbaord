@@ -1,0 +1,27 @@
+
+
+
+
+
+source /home/walterl/ml20_scratch/walterl/miniconda/bin/activate torch_env
+cd /home/walterl/ml20_scratch/walterl/vision_language/clip_imb_prompt_generator_ImageNet
+tensorboard --logdir log_imagenet/log_cls-spec_prp --port 9866
+
+
+
+source /home/walterl/ml20_scratch/walterl/miniconda/bin/activate torch_env
+cd /home/walterl/ml20_scratch/walterl/vision_language/clip_imb_prompt_generator_ImageNet
+tensorboard --logdir log_imagenet/log_cls-agn_prp --port 9778
+
+
+# baseline
+
+
+source /home/walterl/ml20_scratch/walterl/miniconda/bin/activate torch_env
+cd /home/walterl/ml20_scratch/walterl/vision_language/clip_imb_prompt_generator_ImageNet
+tensorboard --logdir log_imagenet/log_cls-spec_prp --port 7000
+
+
+
+
+

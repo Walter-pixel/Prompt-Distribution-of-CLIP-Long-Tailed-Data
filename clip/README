@@ -1,0 +1,4 @@
+- This folder is download from CLIP official github page
+- Nothing (and DO NOT change anything later on) is modified in this folder,
+  everything is the exact same as the oofficial code providied
+- Can run "demo_script.py" for the demo in showing how to use CLIP model

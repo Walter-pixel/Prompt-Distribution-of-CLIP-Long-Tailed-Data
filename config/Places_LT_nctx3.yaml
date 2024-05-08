@@ -1,0 +1,24 @@
+
+#PROMP_LEARNER:
+#  CTX_INIT: "this is the place of the"      #"a photo of a"
+#  N_CTX: 16                                 # number of context vectors--> if CTX_INIT is specified, then N_CTX will have no effect in the code, as the # of context=#of words in CTX_INIT
+#  CSC: False                                # class-specific context
+#  PREC: "fp16"                              # fp16, fp32, amp
+#  CLASS_TOKEN_POSITION: "end"               # 'middle' or 'end' or 'front'
+#  SUBSAMPLE_CLASSES: "all"                  # all, base or new
+
+
+#
+#PROMP_LEARNER:
+#  N_CTX: 9                                 # number of context vectors--> if CTX_INIT is specified, then N_CTX will have no effect in the code, as the # of context=#of words in CTX_INIT
+#  PREC: "fp32"                              # fp16, fp32, amp
+#  CLASS_TOKEN_POSITION: "end"               # 'middle' or 'end' or 'front'
+#  SUBSAMPLE_CLASSES: "all"                  # all, base or new
+
+
+
+
+PROMP_LEARNER:
+  N_CTX: 3                                 # number of context vectors--> if CTX_INIT is specified, then N_CTX will have no effect in the code, as the # of context=#of words in CTX_INIT
+  CLASS_TOKEN_POSITION: "end"               # 'middle' or 'end' or 'front'
+  SUBSAMPLE_CLASSES: "all"                  # all, base or new
